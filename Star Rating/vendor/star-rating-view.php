@@ -3,7 +3,7 @@ for ($count = 1; $count <= 5; $count++) {
     $starRatingId = $row['id'] . '_' . $count;
     if ($count <= $userRating) {
 ?>
-        <li value="<?php echo $count; ?>" id="<?php echo $starRatingId; ?>" class="star"><img src="https://phppot.com/php/jquery-star-rating-script-using-php-and-mysql-with-ajax/./img/<?php echo $apperance; ?>-filled.png"></li>
+        <li value="<?php echo $count; ?>" id="<?php echo $starRatingId; ?>" class="star"><img src="../img/star-filled.png"></li>
     <?php
     } else {
     ?>

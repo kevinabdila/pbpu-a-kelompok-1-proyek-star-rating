@@ -24,7 +24,7 @@ class DataSource
 
     const USERNAME = 'root';
 
-    const PASSWORD = 'test';
+    const PASSWORD = '';
 
     const DATABASENAME = 'db_rating';
 
